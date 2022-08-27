@@ -1,16 +1,6 @@
-const button = document.querySelector("button")!;
+// code goes here!
+const userName = "Max";
+// useName = "Maximilian";
 
-function add(n1: number, n2: number) {
-    if(n1 + n2 > 0) {
-        return n1 + n2;
-    }
-    return;
-}
-
-function clickHandler(message: string) {
-    let userName = "Max";
-    console.log("Clicked!");
-}
-if(button) {
-    button.addEventListener('click', clickHandler.bind(null, "this is a function"));
-}
+let age = 30;
+age = 29;
